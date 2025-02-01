@@ -57,7 +57,7 @@ html {
   text-align: center;
   padding: 2rem 1rem;
   color: rgba(0, 0, 0, 0.5);
-  background-color: #202020;
+  background-color: #12aa12;
 }
 @media (min-width: 48em) {
   .sidebar {
@@ -65,7 +65,7 @@ html {
     top: 0;
     left: 0;
     bottom: 0;
-    width: 18rem;
+    width: 15rem;
     text-align: left;
   }
 }
@@ -136,8 +136,8 @@ a.sidebar-nav-item:focus {
 
 @media (min-width: 64em) {
   .content {
-    margin-left: 22rem;
-    margin-right: 4rem;
+    margin-left: 14rem;
+    margin-right: 0rem;
   }
 }
 
@@ -154,7 +154,7 @@ a.sidebar-nav-item:focus {
     right: 0;
   }
   .layout-reverse .content {
-    margin-left: 2rem;
+    margin-left: 0rem;
     margin-right: 20rem;
   }
 }
@@ -251,7 +251,7 @@ a.sidebar-nav-item:focus {
 
 /* custom */
 .theme-base-10 .sidebar {
-  background-color: #00000000;
+  background-color: #bababa;
 }
 .theme-base-10 .content a,
 .theme-base-10 .related-posts li a:hover {

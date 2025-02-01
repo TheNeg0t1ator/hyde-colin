@@ -59,8 +59,8 @@ html {
 }
 
 body {
-  color: #515151;
-  background-color: #ffffff;
+  color: #969696;
+  background-color: #f1f1f1;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
           text-size-adjust: 100%;
@@ -82,7 +82,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: .5rem;
   font-weight: bold;
   line-height: 1.25;
-  color: #313131;
+  color: #242424;
   text-rendering: optimizeLegibility;
 }
 h1 {
@@ -103,6 +103,12 @@ h4, h5, h6 {
 
 /* Body text */
 p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  margin-left: 30px;
+}
+/* text for home, etc*/
+.p1 {
   margin-top: 0;
   margin-bottom: 1rem;
 }
@@ -154,7 +160,7 @@ code {
   padding: .25em .5em;
   font-size: 85%;
   color: #b3555e;
-  background-color: #f9f9f9;
+  background-color: #dfdfdf;
   border-radius: 3px;
 }
 pre {
@@ -168,7 +174,7 @@ pre {
   white-space: pre-wrap;
   word-break: break-all;
   word-wrap: break-word;
-  background-color: #f9f9f9;
+  background-color: #e2e2e2;
 }
 pre code {
   padding: 0;
@@ -204,7 +210,7 @@ blockquote p:last-child {
 img {
   display: block;
   margin: 0 0 1rem;
-  border-radius: 5px;
+  border-radius: 0px;
   max-width: 100%;
 }
 
@@ -262,7 +268,7 @@ tbody tr:nth-child(odd) th {
 .container {
   max-width: 100%;
   padding-left:  1rem;
-  padding-right: 1rem;
+  padding-right: 0rem;
   margin-left:  auto;
   margin-right: auto;
 }
